@@ -70,18 +70,21 @@ letter-spacing: 0.02em;
 color: var(--ocean);
 }
 
-/* button_cover_cover part */
-.button_cover {
-    background-color:var(--iris);
-    font-family: "Roboto";
-}
- .button_cover:hover,.button_cover_cover:focus {  
-background-color: var(--ocean);
-}
-.button_text {
-    color: white;
-}
 
+button {
+    cursor: pointer;
+    background-color: var(--iris);
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    list-style: 0.04em;
+    color:#ffffff;}
+
+    button:hover,button:focus {
+        background-color: var(--ocean);
+    }
+/* if we are not gonna use it why we define class names i dont get it dude */
 
  .nav-link_address {
     color: var(--slate);
