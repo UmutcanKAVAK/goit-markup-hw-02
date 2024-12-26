@@ -14,7 +14,7 @@ html,body {
     text-decoration: none;
     font-family: "Roboto",sans-serif;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
@@ -120,8 +120,8 @@ text-align: center;
 .header-3 {
     color: var(--navy-blue);
     font-weight: 500;
-    size: 20px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 2%;
 }
 
@@ -148,6 +148,7 @@ footer {
         line-height: 21px;
         letter-spacing: 0.03em;
         text-decoration: none;
+        text-transform: uppercase;
 
 }
 .footer-logo span {
