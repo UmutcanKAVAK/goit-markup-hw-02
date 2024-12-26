@@ -35,7 +35,7 @@ letter-spacing: 0.02em;
         letter-spacing: 0.03em;
         text-align: left;
      text-decoration: none;
-     text-transform: up;
+    text-transform: uppercase;
 }
 
 .header-logo span {
@@ -69,15 +69,21 @@ letter-spacing: 0.02em;
 #team .header-3:hover,#team .header-3:focus{
 color: var(--ocean);
 }
+
+button {
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.004em;
+    color: #ffffff;
+    background-color: var(--iris);
+    cursor: pointer;
+}
 /* button_cover_cover part */
-.button_cover {
-    background-color:var(--iris);
-}
- .button_cover:hover,.button_cover_cover:focus {  
-background-color: var(--ocean);
-}
-.button_text {
-    color: white;
+
+button:focus ,button:hover{
+    background-color: var(--ocean);
 }
 
 
@@ -116,7 +122,7 @@ text-align: center;
     color: var(--navy-blue);
     font-weight: 500;
     size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 2%;
 }
 
