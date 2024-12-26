@@ -10,12 +10,12 @@
 
 html,body {
     background-color: #ffffff;
-    color: var(--navy-blue);
+    color: var(--slate);
     text-decoration: none;
     font-family: "Roboto",sans-serif;
     font-size: 12px;
     line-height: 14px;
-    letter-spacing: 2%;
+letter-spacing: 0.02em;
 }
 
 
@@ -31,10 +31,11 @@ html,body {
     color:var(--navy-blue);
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
      text-decoration: none;
+     text-transform: up;
 }
 
 .header-logo span {
@@ -68,11 +69,11 @@ html,body {
 #team .header-3:hover,#team .header-3:focus{
 color: var(--ocean);
 }
-/* button part */
-button {
+/* button_cover_cover part */
+.button_cover {
     background-color:var(--iris);
 }
- button:hover,button:focus {  
+ .button_cover:hover,.button_cover_cover:focus {  
 background-color: var(--ocean);
 }
 .button_text {
@@ -81,26 +82,28 @@ background-color: var(--ocean);
 
 
  .nav-link_address {
-    color: var(--navy-blue);
+    color: var(--slate);
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
 
 /* HEADER-1 STYLES */
-.header1 {
+.header-1 {
 color: white;
+
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
-letter-spacing: 2%;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
 }
 /* h2 styles */
-.header2 {
+.header-2 {
     color: var(--navy-blue);
     font-weight: bold;
     font-size: 36px;
@@ -109,7 +112,7 @@ letter-spacing: 2%;
     text-align: center;
 }
 /* h3styles */
-.header3 {
+.header-3 {
     color: var(--navy-blue);
     font-weight: 500;
     size: 20px;
