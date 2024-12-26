@@ -146,24 +146,28 @@ footer {
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
-        color:#4D5AE5;
+        color:#4d5ae5;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-decoration: none;
         text-transform: uppercase;
+        text-decoration: none;
 
 }
 .footer_web {
-    line-height: 1.17;
+color: var(--iris);
 }
 
 .footer_studio {
  color: #F4F4FD;
 }
 
-footer p {
-color: white;
+.footer_description {
+    font-size: 16px;
+    /* Aligning with the general font-size styling */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    /* Updated to the correct color code for the description */
 }
-
