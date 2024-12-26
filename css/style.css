@@ -8,7 +8,7 @@
     --cloud:#F4F4FD;
 }
 
-html,body {
+body {
     background-color: #ffffff;
     color: var(--slate);
     text-decoration: none;
