@@ -38,10 +38,13 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
-.header-logo span {
-    color:var(--iris);
+.web {
+    color:var(--iris)
 }
 
+.studio {
+    color: var(--navy-blue);
+}
 /* NAVBAR */
 .nav-link {
     color: var(--navy-blue);
@@ -123,7 +126,7 @@ text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 #cover {
@@ -143,18 +146,21 @@ footer {
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
-        color: white;
+        color:#4D5AE5;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-decoration: none;
         text-transform: uppercase;
 
 }
-.footer-logo span {
-    color: var(--iris);
-    
+.footer_web {
+    line-height: 1.17;
+}
+
+.footer_studio {
+ color: #F4F4FD;
 }
 
 footer p {
