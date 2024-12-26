@@ -8,7 +8,7 @@
     --cloud:#F4F4FD;
 }
 
-body {
+html,body {
     background-color: #ffffff;
     color: var(--slate);
     text-decoration: none;
@@ -73,17 +73,15 @@ color: var(--ocean);
 /* button_cover_cover part */
 .button_cover {
     background-color:var(--iris);
-    font-family: "Roboto",sans-serif;
-    font-weight: 500;
-    font-style: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
+    font-family: "Roboto";
 }
-button:hover,.button:focus {
-    background-color: var(--ocean);
+ .button_cover:hover,.button_cover_cover:focus {  
+background-color: var(--ocean);
 }
+.button_text {
+    color: white;
+}
+
 
  .nav-link_address {
     color: var(--slate);
