@@ -139,9 +139,11 @@ text-align: center;
 .portfolio-section {
     border: 1px solid var(--corn_flower);
 }
+/* footer section */
 
 footer {
     background-color: var(--navy-blue);
+    color: #2E2F42;
 }
 
 .footer-logo {
