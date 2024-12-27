@@ -159,9 +159,8 @@ text-align: center;
 #cover {
     background-color: var(--navy-blue);
 }
-
-#team {
-    background-color:var(--cloud);
+.team-section {
+    background-color: #F4F4FD;
 }
 .portfolio-section {
     border: 1px solid var(--corn_flower);
@@ -204,4 +203,5 @@ footer {
 
 .portfolio-text {
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
