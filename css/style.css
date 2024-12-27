@@ -107,7 +107,7 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 /* h2 styles */
-/* .header-2 {
+/* .heading_2 {
     color: var(--navy-blue);
     font-weight: bold;
     font-size: 36px;
@@ -117,7 +117,7 @@ text-align: center;
     text-transform: capitalize;
 } */
 
-.header-2 {
+.heading_2 {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
