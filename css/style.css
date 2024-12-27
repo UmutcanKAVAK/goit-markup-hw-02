@@ -28,23 +28,19 @@ letter-spacing: 0.02em;
 
 .header-logo {
     font-family:"Raleway",sans-serif;
-    color:var(--navy-blue);
-        font-size: 18px;
+    color:var(--iris);
         font-weight: 700;
+        font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-align: left;
-     text-decoration: none;
-    text-transform: uppercase;
+        text-decoration: none;
+        text-transform: uppercase;
 }
 
-.web {
-    color:var(--iris)
+.header-logo-span {
+        color: var(--navy-blue);
 }
 
-.studio {
-    color: var(--navy-blue);
-}
 /* NAVBAR */
 .nav-link {
     color: var(--navy-blue);
@@ -111,7 +107,7 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 /* h2 styles */
-.header-2 {
+/* .header-2 {
     color: var(--navy-blue);
     font-weight: bold;
     font-size: 36px;
@@ -119,15 +115,46 @@ text-align: center;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+} */
+
+.header-2 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
+
+
+.team-card {
+    background-color: #ffffff;;
+}
+
+
+
+
+
+
 /* h3styles */
-.header-3 {
+/* .header-3 {
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+} */
+
+.header-3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+
+
+
 
 #cover {
     background-color: var(--navy-blue);
@@ -149,22 +176,17 @@ footer {
 .footer-logo {
     font-family: "Raleway", sans-serif;
         color:#4d5ae5;
-        font-size: 18px;
         font-weight: 700;
+        font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-
-}
-.footer_web {
-color: var(--iris);
 }
 
-.footer_studio {
- color: #F4F4FD;
+.footer-logo-span {
+    color:#F4F4FD ;
 }
-
 .footer_description {
     font-size: 16px;
     /* Aligning with the general font-size styling */
@@ -173,3 +195,8 @@ color: var(--iris);
     color: #F4F4FD;
     /* Updated to the correct color code for the description */
 }
+
+.features-text {
+    font-size: 16px;
+}
+
