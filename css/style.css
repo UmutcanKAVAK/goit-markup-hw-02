@@ -13,7 +13,7 @@ html,body {
     color: var(--slate);
     text-decoration: none;
     font-family: "Roboto",sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -193,6 +193,10 @@ footer {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     /* Updated to the correct color code for the description */
+}
+
+.team-text {
+    font-size: 16px;
 }
 
 .features-text {
