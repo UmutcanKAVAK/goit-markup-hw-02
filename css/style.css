@@ -1,207 +1,90 @@
 :root {
-    --iris:#4D5AE5;
-    --navy-blue:#2E2F42;
-    --ocean:#404BBF;
-    --slate:#434455;
-    --light_slate:#8E8F99;
-    --corn_flower:#E7E9FC;
-    --cloud:#F4F4FD;
+    --iris: #4d5ae5;
+    --navy-blue: #2e2f42;
+    --ocean: #404bbf;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --corn-flower: #e7e9fc;
+    --cloud: #f4f4fd;
 }
 
-html,body {
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--slate);
     background-color: #ffffff;
-    color: var(--slate);
-    text-decoration: none;
-    font-family: "Roboto",sans-serif;
-    font-size: 12px;
     line-height: 1.5;
-letter-spacing: 0.02em;
 }
 
-
-/* HEADER SECTION */
-.header {
-    color: white;
-    border: 1px solid #E7E9FC;
-    
-}
-
-.header-logo {
-    font-family:"Raleway",sans-serif;
-    color:var(--iris);
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-        text-transform: uppercase;
-}
-
-.header-logo-span {
-        color: var(--navy-blue);
-}
-
-/* NAVBAR */
-.nav-link {
-    color: var(--navy-blue);
-        text-decoration: none;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-}
-/* hovering and focusing states  */
-.nav-link:hover,.nav-link:focus {
-    color: var(--ocean);
-}
-.nav-link_address:hover,
-.nav-link_address:focus {
-    color: var(--ocean);
-}
-.nav-link:active {
-    text-decoration: underline var(--ocean);
-}
-#team .heading_3:hover,#team .heading_3:focus{
-color: var(--ocean);
-}
-
-
-button {
-    cursor: pointer;
-    background-color: var(--iris);
-    font-family: "Roboto",sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color:#ffffff;}
-
-    button:hover,button:focus {
-        background-color: var(--ocean);
-    }
-/* if we are not gonna use it why we define class names i dont get it dude */
-
- .nav-link_address {
-    color: var(--slate);
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
-
-
-/* HEADER-1 STYLES */
-.header-1 {
-color: white;
-
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-}
-/* h2 styles */
-/* .header-2 {
-    color: var(--navy-blue);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-} */
-
-.header-2 {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-
-.team-card {
-    background-color: #ffffff;;
-}
-
-
-
-
-
-
-/* h3styles */
-/* .heading_3 {
-    color: var(--navy-blue);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-} */
-
-.heading_3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-
-
-
-#cover {
-    background-color: var(--navy-blue);
-}
-
-#team {
-    background-color:var(--cloud);
-}
-.portfolio-section {
-    border: 1px solid var(--corn_flower);
-}
-/* footer section */
-
-footer {
-    background-color: var(--navy-blue);
-    color: #2E2F42;
-}
-
-.footer-logo {
+.header__logo {
     font-family: "Raleway", sans-serif;
-        color:#4d5ae5;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-decoration: none;
+    color: var(--iris);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-.footer-logo-span {
-    color:#F4F4FD ;
+.header__logo-highlight {
+    color: var(--navy-blue);
 }
-.footer_description {
+
+.cover {
+    background-color: var(--navy-blue);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.cover__title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    margin-bottom: 20px;
+}
+
+.cover__button {
+    background-color: var(--iris);
+    color: white;
     font-size: 16px;
-    /* Aligning with the general font-size styling */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    /* Updated to the correct color code for the description */
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
-.features-text {
-    font-size: 16px;
-    letter-spacing: 0.02em;
+.cover__button:hover {
+    background-color: var(--ocean);
 }
 
+.features__item-title {
+    font-size: 20px;
+    font-weight: 500;
+}
 
-.portfolio-text {
+.features__item-text {
     font-size: 16px;
+    color: var(--slate);
+}
+
+.team__card {
+    background-color: white;
+    padding: 20px;
+}
+
+.team__card-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.team__card-text {
+    font-size: 16px;
+    color: var(--light-slate);
+}
+
+.footer__logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: var(--iris);
+    text-transform: uppercase;
 }
