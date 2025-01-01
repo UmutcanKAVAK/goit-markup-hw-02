@@ -1,211 +1,121 @@
 :root {
-    --iris:#4D5AE5;
-    --navy-blue:#2E2F42;
-    --ocean:#404BBF;
-    --slate:#434455;
-    --light_slate:#8E8F99;
-    --corn_flower:#E7E9FC;
-    --cloud:#F4F4FD;
+  --iris: #4d5ae5;
+  --navy-blue: #2e2f42;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --light_slate: #8e8f99;
+  --corn_flower: #e7e9fc;
+  --cloud: #f4f4fd;
 }
 
-html,body {
-    background-color: #ffffff;
-    color: var(--slate);
-    text-decoration: none;
-    font-family: "Roboto",sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-letter-spacing: 0.02em;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-/* HEADER SECTION */
-.header {
-    color: white;
-    border: 1px solid #E7E9FC;
-    
+ul {
+  list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: 24px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.nav-link_address {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: 24px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 .header-logo {
-    font-family:"Raleway",sans-serif;
-    color:var(--iris);
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-decoration: none;
-        text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-style: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
 .header-logo-span {
-        color: var(--navy-blue);
+  color: var(--navy-blue);
 }
-
-/* NAVBAR */
 .nav-link {
-    color: var(--navy-blue);
-        text-decoration: none;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
+  color: var(--navy-blue);
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 /* hovering and focusing states  */
-.nav-link:hover,.nav-link:focus {
-    color: var(--ocean);
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean);
 }
 .nav-link_address:hover,
 .nav-link_address:focus {
-    color: var(--ocean);
+  color: var(--ocean);
 }
 .nav-link:active {
-    text-decoration: underline var(--ocean);
-}
-#team .heading_3:hover,#team .heading_3:focus{
-color: var(--ocean);
+  text-decoration: underline var(--ocean);
 }
 
-
-button {
-    cursor: pointer;
-    background-color: var(--iris);
-    font-family: "Roboto",sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color:#ffffff;}
-
-    button:hover,button:focus {
-        background-color: var(--ocean);
-    }
-/* if we are not gonna use it why we define class names i dont get it dude */
-
- .nav-link_address {
-    color: var(--slate);
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
+.heading-main {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
 }
 
-
-/* heading_1 STYLES */
-.heading_1 {
-color: white;
-
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-}
-/* h2 styles */
-/* .heading_2 {
-    color: var(--navy-blue);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-} */
-
-.heading_2 {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+.hero-section {
+  background-color: var(--navy-blue);
 }
 
-
-.team-card {
-    background-color: #ffffff;
+.hero-button {
+  background-color: var(--iris);
+  color: #ffffff;
 }
 
-
-
-
-
-
-/* h3styles */
-/* .heading_3 {
-    color: var(--navy-blue);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-} */
-
-.heading_3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-
-
-
-#cover {
-    background-color: var(--navy-blue);
-}
 .team-section {
-    background-color: #F4F4FD;
+  background-color: var(--cloud);
 }
 .portfolio-section {
-    border: 1px solid var(--corn_flower);
-}
-/* footer section */
-
-footer {
-    background-color: var(--navy-blue);
-    color: #2E2F42;
+  border: 1px solid var(--corn_flower);
 }
 
 .footer-logo {
-    font-family: "Raleway", sans-serif;
-        color:#4d5ae5;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-logo-span {
-    color:#F4F4FD ;
-}
-.footer_description {
-    font-size: 16px;
-    /* Aligning with the general font-size styling */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    /* Updated to the correct color code for the description */
+  color: #f4f4fd;
 }
 
-.team-text {
-    font-size: 16px;
-}
-
-.features-text {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-}
-
-
-.portfolio-text {
-    font-size: 16px;
-    letter-spacing: 0.02em;
+footer {
+  background-color: var(--navy-blue);
+  color: #f4f4fd;
 }
